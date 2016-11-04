@@ -25,15 +25,23 @@
 
 
 .img-circle {
-  object-fit: cover;
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+  }
 }
 
 .featurette-image {
-  box-sizing: border-box;
-  padding: 15px;
-  width: 100%;
-  border: 1px solid #85144b;
-  border-radius: 4px;
+  img {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #85144b;
+    border-radius: 4px;
+  }
+ 
 }
 
 .architecture-border {
